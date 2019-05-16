@@ -22,6 +22,37 @@
 .App-link {
   color: #61dafb;
 }
+.card-wrapper{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
+.card div{
+  width: 33%;
+  margin: 2%;
+}
+.search form input{
+  width: 100%;
+  height: 40px;
+  margin: 5%;
+  max-width: 800px;
+  margin: 5% auto;
+  border-radius: 10px;
+  border:1px solid blue;
+  padding:0px 20px;
+}
+
 
 @keyframes App-logo-spin {
   from {
